@@ -1,0 +1,93 @@
+body{
+    background-color:midnightblue
+}
+h1{
+    color:#4B0082;
+    margin:auto;
+    text-align:center;
+    font-size:30px; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
+#header{
+    background-color:lightblue;
+    padding:10px;
+    text-align:center;
+    border-radius:15px;
+    
+
+}
+#input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 550px;
+}
+#input-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:darkviolet;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#input-button:hover{
+    background-color:indigo;
+}
+h2{
+    color:gold;
+    margin:auto;
+    text-align:center;
+    font-size:40px; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    margin-top: 20px;
+}
+#task-list{
+    margin:auto;
+    width: 500px;
+}
+#task-list li{
+    background-color:lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.edit-btn , .delete-btn{
+    background-color:darkorange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.edit-btn:hover, .delete-btn:hover{
+    background-color:orangered;
+}
+#task-Counters{
+    margin:auto;
+    width: 500px;
+    text-align:center;
+    color:gold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
