@@ -21,3 +21,5 @@ A simple to-do list built with vanilla HTML, CSS, and JavaScript — my first pr
 - Handling click and submit events
 - Using arrays/objects to manage task state
 - Basic conditional rendering (checked vs unchecked tasks)
+  ## Live Website 💻
+  -https://aabirtodolist.netlify.app/
